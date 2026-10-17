@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#211d38">
+  <title>Isekai por accidente · Novela visual</title>
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="sprites.css">
+</head>
+<body>
+  <main id="app">
+    <div id="backdrop" class="backdrop bg-city"></div><div class="scene-shade"></div>
+    <div class="petals" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <header class="topbar">
+      <button class="wordmark" id="brand" aria-label="Abrir menú principal"><span class="emblem">✦</span><span>ISEKAI <small>POR ACCIDENTE</small></span></button>
+      <div class="chapter-label" id="chapter-label">UNA SEGUNDA VIDA. DEMASIADAS PRIMERAS CITAS.</div>
+      <nav><button class="icon-button" id="sound-btn" title="Activar música" aria-label="Activar música">♫</button><button class="icon-button" id="fullscreen-btn" title="Pantalla completa" aria-label="Pantalla completa">⛶</button><button class="icon-button" id="settings-btn" title="Ajustes" aria-label="Ajustes">⚙</button></nav>
+    </header>
+
+    <section id="title-screen" class="screen title-screen">
+      <div class="title-copy"><div class="eyebrow"><span></span> NOVELA VISUAL · FANTASÍA ROMÁNTICA</div><h1>Isekai<br>por <em>accidente.</em></h1><p class="subtitle">El héroe del malentendido</p><p class="intro">Un camión. Un poder absurdo.<br>Cuatro razones para no volver a casa.</p><div class="title-actions"><button id="new-game" class="primary">Comenzar mi otra vida <span>→</span></button><button id="continue-game" class="secondary" disabled>Continuar aventura <span>↗</span></button></div><div class="title-links"><button id="chapters-btn">Capítulos</button><span>✧</span><button id="gallery-btn">Finales</button><span>✧</span><button id="credits-btn">Sobre el juego</button></div></div>
+      <div class="cover-cast" aria-hidden="true"><div class="cover-orbit"></div><div class="cover-spark s1">✦</div><div class="cover-spark s2">✧</div><div class="portrait cover-char cover-lys char-lys expr-happy"></div><div class="portrait cover-char cover-kaida char-kaida expr-neutral"></div><div class="portrait cover-char cover-nara char-nara expr-shy"></div><div class="cover-note"><span>❀</span><div>Tu historia, tus decisiones.<small>Y unas cuantas consecuencias.</small></div></div></div>
+      <footer class="title-footer"><span>01 — UN NUEVO COMIENZO</span><span>8 CAPÍTULOS <i>·</i> 7 FINALES <i>·</i> SIN CONEXIÓN</span><span>ESPAÑOL / EDICIÓN PC</span></footer>
+    </section>
+
+    <section id="game-screen" class="screen game-screen" hidden>
+      <div class="scene-heading"><span id="chapter-number">PRÓLOGO</span><h2 id="scene-title"></h2><div id="scene-location"></div></div>
+      <aside class="bond-panel" id="bond-panel" aria-label="Afinidades"></aside>
+      <div id="stage" class="stage" aria-hidden="true"></div>
+      <div id="choice-panel" class="choice-panel" hidden><div class="choice-eyebrow">✦ TU DECISIÓN CAMBIA LA HISTORIA</div><h3 id="choice-prompt">¿Qué vas a hacer?</h3><div id="choices"></div></div>
+      <section class="dialogue-area" id="dialogue-area"><div class="speaker-tab" id="speaker"></div><button id="dialogue-box" class="dialogue-box" aria-label="Avanzar diálogo"><span id="dialogue-text" aria-live="polite"></span><span class="advance-hint" id="advance-hint">ESPACIO <b>◆</b></span></button><div class="quickbar"><span id="progress-label"></span><div><button id="history-btn">Historial</button><button id="journal-btn">Diario</button><button id="save-btn">Guardar</button><button id="load-btn">Cargar</button><button id="auto-btn">Auto</button><button id="menu-btn">Menú</button></div></div></section>
+    </section>
+
+    <section id="ending-screen" class="screen ending-screen" hidden><div class="ending-card"><div class="eyebrow">UNA HISTORIA QUE ELEGISTE TÚ</div><div class="ending-symbol" id="ending-symbol">✦</div><div id="ending-category"></div><h1 id="ending-title"></h1><p id="ending-description"></p><div id="ending-bonds"></div><p class="ending-unlock">Este final se ha añadido a tu colección.</p><button class="primary" id="ending-menu">Volver al inicio <span>→</span></button><button class="text-button" id="ending-gallery">Ver mis finales</button></div></section>
+    <div id="toast" class="toast" role="status"></div>
+  </main>
+  <dialog id="modal"><div class="modal-top"><div><span class="eyebrow" id="modal-kicker">TU OTRA VIDA</span><h2 id="modal-title"></h2></div><button id="close-modal" class="icon-button" aria-label="Cerrar">×</button></div><div id="modal-body"></div></dialog>
+  <script src="story.js"></script><script src="chapters/01-02.js"></script><script src="chapters/03-04.js"></script><script src="chapters/05-06.js"></script><script src="chapters/07-08.js"></script><script src="core.js"></script><script src="game.js"></script>
+</body>
+</html>

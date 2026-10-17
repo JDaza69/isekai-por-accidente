@@ -1,0 +1,1533 @@
+{
+  "format": "isekai-accidente",
+  "version": 1,
+  "state": {
+    "version": 1,
+    "name": "Prueba",
+    "node": "c7-1",
+    "line": 0,
+    "bonds": {
+      "lys": 39,
+      "kaida": 23,
+      "nara": 13,
+      "mirel": 28
+    },
+    "trust": 72,
+    "chaos": 0,
+    "flags": {
+      "pregunta-primero": true,
+      "expediente": true,
+      "cafe": true,
+      "fuente-clara": true,
+      "rescate-coordinado": true,
+      "lee-contrato": true,
+      "respeto-puerta": true,
+      "ritmo": true,
+      "recibos": true,
+      "orden": true,
+      "kaida-escuchada": true,
+      "equipo": true,
+      "sendero-seguro": true,
+      "brumo-amigo": true,
+      "regla-original": true,
+      "mano-lys": true,
+      "armaduras-control": true,
+      "baile-lys": true,
+      "mirel-baile": true,
+      "llave": true,
+      "baile-cercano-lys": true,
+      "don-alterado": true,
+      "balcon-equipo": true,
+      "honesto": true,
+      "festival-lys": true,
+      "festival-seguro": true,
+      "negativas": true,
+      "foto": true,
+      "evacuacion": true,
+      "mirel-equipo": true,
+      "verdad-mirel": true,
+      "domingo": true,
+      "atlas-nuevo": true,
+      "eleccion": true,
+      "tardes": true,
+      "plan-restaurar": true
+    },
+    "clues": [
+      "El expediente de llegada fue autorizado con una fecha futura. Mirel no reconoce la firma.",
+      "Los cristales del festival pesan el doble de lo declarado. La Fundación Aurora los compró para alimentar una máquina.",
+      "La orden del almacén habla de reorientación afectiva y fija la activación para la tercera campana del festival.",
+      "La regla original del Telar garantiza poder abandonar una ruta. Severin la sustituyó por una instrucción que elimina la duda.",
+      "Severin cambió el don de comprensión por un permiso de edición. Necesita que el protagonista acepte el trono para fijar el Telar.",
+      "El nodo del festival eliminaba respuestas negativas de los ciudadanos y repetía los encuentros hasta obtener la aceptación.",
+      "Mirel confirma que el accidente ocurrió antes de la selección. El poder puede conservarse a pequeña escala al renunciar al permiso de administrador."
+    ],
+    "history": [],
+    "decisions": [
+      {
+        "node": "c1-1",
+        "index": 0,
+        "label": "Pedir una explicación y un vaso de agua."
+      },
+      {
+        "node": "c1-2",
+        "index": 0,
+        "label": "Preguntar por la fecha extraña del expediente."
+      },
+      {
+        "node": "c1-3",
+        "index": 1,
+        "label": "Calentarle el café y prometer que volverás."
+      },
+      {
+        "node": "c1-4",
+        "index": 0,
+        "label": "Aclarar el malentendido y ayudar con los libros."
+      },
+      {
+        "node": "c1-5",
+        "index": 0,
+        "label": "Coordinarte con Kaida y reforzar el nudo."
+      },
+      {
+        "node": "c1-6",
+        "index": 0,
+        "label": "Leer el contrato con Nara antes de firmar."
+      },
+      {
+        "node": "c2-1",
+        "index": 1,
+        "label": "Tranquilizar a Lys y devolverle su intimidad."
+      },
+      {
+        "node": "c2-2",
+        "index": 0,
+        "label": "Pedir a Kaida que marque el ritmo del entrenamiento."
+      },
+      {
+        "node": "c2-3",
+        "index": 1,
+        "label": "Buscar la diferencia de peso en los recibos."
+      },
+      {
+        "node": "c2-4",
+        "index": 0,
+        "label": "Copiar la orden de activación."
+      },
+      {
+        "node": "c2-5",
+        "index": 0,
+        "label": "Escucharla sin intentar arreglarle la vida."
+      },
+      {
+        "node": "c2-6",
+        "index": 0,
+        "label": "Proponer que nadie se quede fuera de las decisiones."
+      },
+      {
+        "node": "c3-1",
+        "index": 0,
+        "label": "Seguir el mapa de Lys y comprobar las marcas."
+      },
+      {
+        "node": "c3-2",
+        "index": 0,
+        "label": "Ofrecerle comida y pedir permiso para revisar la inscripción."
+      },
+      {
+        "node": "c3-3",
+        "index": 0,
+        "label": "Guardar las dos versiones como prueba."
+      },
+      {
+        "node": "c3-4",
+        "index": 0,
+        "label": "Acompañar a Lys a dibujar junto al río."
+      },
+      {
+        "node": "c3-lys",
+        "index": 0,
+        "label": "Pedirle permiso para tomarle la mano."
+      },
+      {
+        "node": "c3-5",
+        "index": 0,
+        "label": "Confiar en Kaida y desincronizar el cristal."
+      },
+      {
+        "node": "c3-6",
+        "index": 0,
+        "label": "Pedir a Lys que te ayude a estudiar el protocolo."
+      },
+      {
+        "node": "c4-1",
+        "index": 0,
+        "label": "Ayudar a Mirel a sentirse parte del grupo."
+      },
+      {
+        "node": "c4-2",
+        "index": 1,
+        "label": "Aceptar la llave, pero avisar a Kaida con la señal."
+      },
+      {
+        "node": "c4-3",
+        "index": 0,
+        "label": "Invitar a Lys y dejar que encuentre su propio ritmo."
+      },
+      {
+        "node": "c4-lys",
+        "index": 0,
+        "label": "Acercarte también y decirle que estás aquí por elección."
+      },
+      {
+        "node": "c4-4",
+        "index": 0,
+        "label": "Copiar el registro del poder alterado."
+      },
+      {
+        "node": "c4-5",
+        "index": 0,
+        "label": "Coordinar una pasarela mientras Kaida protege a Mirel."
+      },
+      {
+        "node": "c4-6",
+        "index": 0,
+        "label": "Hablar con honestidad de que te atrae más de una compañera."
+      },
+      {
+        "node": "c5-1",
+        "index": 0,
+        "label": "Inscribirte con Lys en la prueba de acertijos."
+      },
+      {
+        "node": "c5-2",
+        "index": 0,
+        "label": "Estabilizar las plataformas antes de continuar."
+      },
+      {
+        "node": "c5-3",
+        "index": 0,
+        "label": "Salvar una copia completa del registro."
+      },
+      {
+        "node": "c5-4",
+        "index": 0,
+        "label": "Pedir una foto de todos, tal como estáis."
+      },
+      {
+        "node": "c5-5",
+        "index": 0,
+        "label": "Explicar el riesgo y dar instrucciones concretas."
+      },
+      {
+        "node": "c5-6",
+        "index": 1,
+        "label": "Pedir al grupo que busque una solución juntos."
+      },
+      {
+        "node": "c6-1",
+        "index": 0,
+        "label": "Guardar el formulario y agradecer su honestidad."
+      },
+      {
+        "node": "c6-2",
+        "index": 0,
+        "label": "Invitarla a pasar un domingo contigo."
+      },
+      {
+        "node": "c6-3",
+        "index": 0,
+        "label": "Ayudar a Lys a trazar la nueva ruta."
+      },
+      {
+        "node": "c6-4",
+        "index": 0,
+        "label": "«Quiero que podamos elegir, incluso si elegimos distinto»."
+      },
+      {
+        "node": "c6-5",
+        "index": 0,
+        "label": "Admitir que también disfrutas estar con ellas."
+      },
+      {
+        "node": "c6-6",
+        "index": 0,
+        "label": "Preparar la restauración con el grupo."
+      }
+    ],
+    "started": 1792275811311,
+    "playSeconds": 0
+  },
+  "profile": {
+    "endings": [],
+    "checkpoints": {
+      "1": {
+        "version": 1,
+        "name": "Prueba",
+        "node": "c1-1",
+        "line": 0,
+        "bonds": {
+          "lys": 0,
+          "kaida": 0,
+          "nara": 0,
+          "mirel": 0
+        },
+        "trust": 0,
+        "chaos": 0,
+        "flags": {},
+        "clues": [],
+        "history": [],
+        "decisions": [],
+        "started": 1792275811311,
+        "playSeconds": 0
+      },
+      "2": {
+        "version": 1,
+        "name": "Prueba",
+        "node": "c2-1",
+        "line": 0,
+        "bonds": {
+          "lys": 3,
+          "kaida": 3,
+          "nara": 3,
+          "mirel": 5
+        },
+        "trust": 7,
+        "chaos": 0,
+        "flags": {
+          "pregunta-primero": true,
+          "expediente": true,
+          "cafe": true,
+          "fuente-clara": true,
+          "rescate-coordinado": true,
+          "lee-contrato": true
+        },
+        "clues": [
+          "El expediente de llegada fue autorizado con una fecha futura. Mirel no reconoce la firma."
+        ],
+        "history": [],
+        "decisions": [
+          {
+            "node": "c1-1",
+            "index": 0,
+            "label": "Pedir una explicación y un vaso de agua."
+          },
+          {
+            "node": "c1-2",
+            "index": 0,
+            "label": "Preguntar por la fecha extraña del expediente."
+          },
+          {
+            "node": "c1-3",
+            "index": 1,
+            "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-4",
+            "index": 0,
+            "label": "Aclarar el malentendido y ayudar con los libros."
+          },
+          {
+            "node": "c1-5",
+            "index": 0,
+            "label": "Coordinarte con Kaida y reforzar el nudo."
+          },
+          {
+            "node": "c1-6",
+            "index": 0,
+            "label": "Leer el contrato con Nara antes de firmar."
+          }
+        ],
+        "started": 1792275811311,
+        "playSeconds": 0
+      },
+      "3": {
+        "version": 1,
+        "name": "Prueba",
+        "node": "c3-1",
+        "line": 0,
+        "bonds": {
+          "lys": 8,
+          "kaida": 10,
+          "nara": 7,
+          "mirel": 6
+        },
+        "trust": 20,
+        "chaos": 0,
+        "flags": {
+          "pregunta-primero": true,
+          "expediente": true,
+          "cafe": true,
+          "fuente-clara": true,
+          "rescate-coordinado": true,
+          "lee-contrato": true,
+          "respeto-puerta": true,
+          "ritmo": true,
+          "recibos": true,
+          "orden": true,
+          "kaida-escuchada": true,
+          "equipo": true
+        },
+        "clues": [
+          "El expediente de llegada fue autorizado con una fecha futura. Mirel no reconoce la firma.",
+          "Los cristales del festival pesan el doble de lo declarado. La Fundación Aurora los compró para alimentar una máquina.",
+          "La orden del almacén habla de reorientación afectiva y fija la activación para la tercera campana del festival."
+        ],
+        "history": [],
+        "decisions": [
+          {
+            "node": "c1-1",
+            "index": 0,
+            "label": "Pedir una explicación y un vaso de agua."
+          },
+          {
+            "node": "c1-2",
+            "index": 0,
+            "label": "Preguntar por la fecha extraña del expediente."
+          },
+          {
+            "node": "c1-3",
+            "index": 1,
+            "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-4",
+            "index": 0,
+            "label": "Aclarar el malentendido y ayudar con los libros."
+          },
+          {
+            "node": "c1-5",
+            "index": 0,
+            "label": "Coordinarte con Kaida y reforzar el nudo."
+          },
+          {
+            "node": "c1-6",
+            "index": 0,
+            "label": "Leer el contrato con Nara antes de firmar."
+          },
+          {
+            "node": "c2-1",
+            "index": 1,
+            "label": "Tranquilizar a Lys y devolverle su intimidad."
+          },
+          {
+            "node": "c2-2",
+            "index": 0,
+            "label": "Pedir a Kaida que marque el ritmo del entrenamiento."
+          },
+          {
+            "node": "c2-3",
+            "index": 1,
+            "label": "Buscar la diferencia de peso en los recibos."
+          },
+          {
+            "node": "c2-4",
+            "index": 0,
+            "label": "Copiar la orden de activación."
+          },
+          {
+            "node": "c2-5",
+            "index": 0,
+            "label": "Escucharla sin intentar arreglarle la vida."
+          },
+          {
+            "node": "c2-6",
+            "index": 0,
+            "label": "Proponer que nadie se quede fuera de las decisiones."
+          }
+        ],
+        "started": 1792275811311,
+        "playSeconds": 0
+      },
+      "4": {
+        "version": 1,
+        "name": "Prueba",
+        "node": "c4-1",
+        "line": 0,
+        "bonds": {
+          "lys": 20,
+          "kaida": 13,
+          "nara": 8,
+          "mirel": 6
+        },
+        "trust": 32,
+        "chaos": 0,
+        "flags": {
+          "pregunta-primero": true,
+          "expediente": true,
+          "cafe": true,
+          "fuente-clara": true,
+          "rescate-coordinado": true,
+          "lee-contrato": true,
+          "respeto-puerta": true,
+          "ritmo": true,
+          "recibos": true,
+          "orden": true,
+          "kaida-escuchada": true,
+          "equipo": true,
+          "sendero-seguro": true,
+          "brumo-amigo": true,
+          "regla-original": true,
+          "mano-lys": true,
+          "armaduras-control": true,
+          "baile-lys": true
+        },
+        "clues": [
+          "El expediente de llegada fue autorizado con una fecha futura. Mirel no reconoce la firma.",
+          "Los cristales del festival pesan el doble de lo declarado. La Fundación Aurora los compró para alimentar una máquina.",
+          "La orden del almacén habla de reorientación afectiva y fija la activación para la tercera campana del festival.",
+          "La regla original del Telar garantiza poder abandonar una ruta. Severin la sustituyó por una instrucción que elimina la duda."
+        ],
+        "history": [],
+        "decisions": [
+          {
+            "node": "c1-1",
+            "index": 0,
+            "label": "Pedir una explicación y un vaso de agua."
+          },
+          {
+            "node": "c1-2",
+            "index": 0,
+            "label": "Preguntar por la fecha extraña del expediente."
+          },
+          {
+            "node": "c1-3",
+            "index": 1,
+            "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-4",
+            "index": 0,
+            "label": "Aclarar el malentendido y ayudar con los libros."
+          },
+          {
+            "node": "c1-5",
+            "index": 0,
+            "label": "Coordinarte con Kaida y reforzar el nudo."
+          },
+          {
+            "node": "c1-6",
+            "index": 0,
+            "label": "Leer el contrato con Nara antes de firmar."
+          },
+          {
+            "node": "c2-1",
+            "index": 1,
+            "label": "Tranquilizar a Lys y devolverle su intimidad."
+          },
+          {
+            "node": "c2-2",
+            "index": 0,
+            "label": "Pedir a Kaida que marque el ritmo del entrenamiento."
+          },
+          {
+            "node": "c2-3",
+            "index": 1,
+            "label": "Buscar la diferencia de peso en los recibos."
+          },
+          {
+            "node": "c2-4",
+            "index": 0,
+            "label": "Copiar la orden de activación."
+          },
+          {
+            "node": "c2-5",
+            "index": 0,
+            "label": "Escucharla sin intentar arreglarle la vida."
+          },
+          {
+            "node": "c2-6",
+            "index": 0,
+            "label": "Proponer que nadie se quede fuera de las decisiones."
+          },
+          {
+            "node": "c3-1",
+            "index": 0,
+            "label": "Seguir el mapa de Lys y comprobar las marcas."
+          },
+          {
+            "node": "c3-2",
+            "index": 0,
+            "label": "Ofrecerle comida y pedir permiso para revisar la inscripción."
+          },
+          {
+            "node": "c3-3",
+            "index": 0,
+            "label": "Guardar las dos versiones como prueba."
+          },
+          {
+            "node": "c3-4",
+            "index": 0,
+            "label": "Acompañar a Lys a dibujar junto al río."
+          },
+          {
+            "node": "c3-lys",
+            "index": 0,
+            "label": "Pedirle permiso para tomarle la mano."
+          },
+          {
+            "node": "c3-5",
+            "index": 0,
+            "label": "Confiar en Kaida y desincronizar el cristal."
+          },
+          {
+            "node": "c3-6",
+            "index": 0,
+            "label": "Pedir a Lys que te ayude a estudiar el protocolo."
+          }
+        ],
+        "started": 1792275811311,
+        "playSeconds": 0
+      },
+      "5": {
+        "version": 1,
+        "name": "Prueba",
+        "node": "c5-1",
+        "line": 0,
+        "bonds": {
+          "lys": 27,
+          "kaida": 17,
+          "nara": 10,
+          "mirel": 12
+        },
+        "trust": 43,
+        "chaos": 0,
+        "flags": {
+          "pregunta-primero": true,
+          "expediente": true,
+          "cafe": true,
+          "fuente-clara": true,
+          "rescate-coordinado": true,
+          "lee-contrato": true,
+          "respeto-puerta": true,
+          "ritmo": true,
+          "recibos": true,
+          "orden": true,
+          "kaida-escuchada": true,
+          "equipo": true,
+          "sendero-seguro": true,
+          "brumo-amigo": true,
+          "regla-original": true,
+          "mano-lys": true,
+          "armaduras-control": true,
+          "baile-lys": true,
+          "mirel-baile": true,
+          "llave": true,
+          "baile-cercano-lys": true,
+          "don-alterado": true,
+          "balcon-equipo": true,
+          "honesto": true
+        },
+        "clues": [
+          "El expediente de llegada fue autorizado con una fecha futura. Mirel no reconoce la firma.",
+          "Los cristales del festival pesan el doble de lo declarado. La Fundación Aurora los compró para alimentar una máquina.",
+          "La orden del almacén habla de reorientación afectiva y fija la activación para la tercera campana del festival.",
+          "La regla original del Telar garantiza poder abandonar una ruta. Severin la sustituyó por una instrucción que elimina la duda.",
+          "Severin cambió el don de comprensión por un permiso de edición. Necesita que el protagonista acepte el trono para fijar el Telar."
+        ],
+        "history": [],
+        "decisions": [
+          {
+            "node": "c1-1",
+            "index": 0,
+            "label": "Pedir una explicación y un vaso de agua."
+          },
+          {
+            "node": "c1-2",
+            "index": 0,
+            "label": "Preguntar por la fecha extraña del expediente."
+          },
+          {
+            "node": "c1-3",
+            "index": 1,
+            "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-4",
+            "index": 0,
+            "label": "Aclarar el malentendido y ayudar con los libros."
+          },
+          {
+            "node": "c1-5",
+            "index": 0,
+            "label": "Coordinarte con Kaida y reforzar el nudo."
+          },
+          {
+            "node": "c1-6",
+            "index": 0,
+            "label": "Leer el contrato con Nara antes de firmar."
+          },
+          {
+            "node": "c2-1",
+            "index": 1,
+            "label": "Tranquilizar a Lys y devolverle su intimidad."
+          },
+          {
+            "node": "c2-2",
+            "index": 0,
+            "label": "Pedir a Kaida que marque el ritmo del entrenamiento."
+          },
+          {
+            "node": "c2-3",
+            "index": 1,
+            "label": "Buscar la diferencia de peso en los recibos."
+          },
+          {
+            "node": "c2-4",
+            "index": 0,
+            "label": "Copiar la orden de activación."
+          },
+          {
+            "node": "c2-5",
+            "index": 0,
+            "label": "Escucharla sin intentar arreglarle la vida."
+          },
+          {
+            "node": "c2-6",
+            "index": 0,
+            "label": "Proponer que nadie se quede fuera de las decisiones."
+          },
+          {
+            "node": "c3-1",
+            "index": 0,
+            "label": "Seguir el mapa de Lys y comprobar las marcas."
+          },
+          {
+            "node": "c3-2",
+            "index": 0,
+            "label": "Ofrecerle comida y pedir permiso para revisar la inscripción."
+          },
+          {
+            "node": "c3-3",
+            "index": 0,
+            "label": "Guardar las dos versiones como prueba."
+          },
+          {
+            "node": "c3-4",
+            "index": 0,
+            "label": "Acompañar a Lys a dibujar junto al río."
+          },
+          {
+            "node": "c3-lys",
+            "index": 0,
+            "label": "Pedirle permiso para tomarle la mano."
+          },
+          {
+            "node": "c3-5",
+            "index": 0,
+            "label": "Confiar en Kaida y desincronizar el cristal."
+          },
+          {
+            "node": "c3-6",
+            "index": 0,
+            "label": "Pedir a Lys que te ayude a estudiar el protocolo."
+          },
+          {
+            "node": "c4-1",
+            "index": 0,
+            "label": "Ayudar a Mirel a sentirse parte del grupo."
+          },
+          {
+            "node": "c4-2",
+            "index": 1,
+            "label": "Aceptar la llave, pero avisar a Kaida con la señal."
+          },
+          {
+            "node": "c4-3",
+            "index": 0,
+            "label": "Invitar a Lys y dejar que encuentre su propio ritmo."
+          },
+          {
+            "node": "c4-lys",
+            "index": 0,
+            "label": "Acercarte también y decirle que estás aquí por elección."
+          },
+          {
+            "node": "c4-4",
+            "index": 0,
+            "label": "Copiar el registro del poder alterado."
+          },
+          {
+            "node": "c4-5",
+            "index": 0,
+            "label": "Coordinar una pasarela mientras Kaida protege a Mirel."
+          },
+          {
+            "node": "c4-6",
+            "index": 0,
+            "label": "Hablar con honestidad de que te atrae más de una compañera."
+          }
+        ],
+        "started": 1792275811311,
+        "playSeconds": 0
+      },
+      "6": {
+        "version": 1,
+        "name": "Prueba",
+        "node": "c6-1",
+        "line": 0,
+        "bonds": {
+          "lys": 33,
+          "kaida": 21,
+          "nara": 11,
+          "mirel": 18
+        },
+        "trust": 58,
+        "chaos": 0,
+        "flags": {
+          "pregunta-primero": true,
+          "expediente": true,
+          "cafe": true,
+          "fuente-clara": true,
+          "rescate-coordinado": true,
+          "lee-contrato": true,
+          "respeto-puerta": true,
+          "ritmo": true,
+          "recibos": true,
+          "orden": true,
+          "kaida-escuchada": true,
+          "equipo": true,
+          "sendero-seguro": true,
+          "brumo-amigo": true,
+          "regla-original": true,
+          "mano-lys": true,
+          "armaduras-control": true,
+          "baile-lys": true,
+          "mirel-baile": true,
+          "llave": true,
+          "baile-cercano-lys": true,
+          "don-alterado": true,
+          "balcon-equipo": true,
+          "honesto": true,
+          "festival-lys": true,
+          "festival-seguro": true,
+          "negativas": true,
+          "foto": true,
+          "evacuacion": true,
+          "mirel-equipo": true
+        },
+        "clues": [
+          "El expediente de llegada fue autorizado con una fecha futura. Mirel no reconoce la firma.",
+          "Los cristales del festival pesan el doble de lo declarado. La Fundación Aurora los compró para alimentar una máquina.",
+          "La orden del almacén habla de reorientación afectiva y fija la activación para la tercera campana del festival.",
+          "La regla original del Telar garantiza poder abandonar una ruta. Severin la sustituyó por una instrucción que elimina la duda.",
+          "Severin cambió el don de comprensión por un permiso de edición. Necesita que el protagonista acepte el trono para fijar el Telar.",
+          "El nodo del festival eliminaba respuestas negativas de los ciudadanos y repetía los encuentros hasta obtener la aceptación."
+        ],
+        "history": [],
+        "decisions": [
+          {
+            "node": "c1-1",
+            "index": 0,
+            "label": "Pedir una explicación y un vaso de agua."
+          },
+          {
+            "node": "c1-2",
+            "index": 0,
+            "label": "Preguntar por la fecha extraña del expediente."
+          },
+          {
+            "node": "c1-3",
+            "index": 1,
+            "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-4",
+            "index": 0,
+            "label": "Aclarar el malentendido y ayudar con los libros."
+          },
+          {
+            "node": "c1-5",
+            "index": 0,
+            "label": "Coordinarte con Kaida y reforzar el nudo."
+          },
+          {
+            "node": "c1-6",
+            "index": 0,
+            "label": "Leer el contrato con Nara antes de firmar."
+          },
+          {
+            "node": "c2-1",
+            "index": 1,
+            "label": "Tranquilizar a Lys y devolverle su intimidad."
+          },
+          {
+            "node": "c2-2",
+            "index": 0,
+            "label": "Pedir a Kaida que marque el ritmo del entrenamiento."
+          },
+          {
+            "node": "c2-3",
+            "index": 1,
+            "label": "Buscar la diferencia de peso en los recibos."
+          },
+          {
+            "node": "c2-4",
+            "index": 0,
+            "label": "Copiar la orden de activación."
+          },
+          {
+            "node": "c2-5",
+            "index": 0,
+            "label": "Escucharla sin intentar arreglarle la vida."
+          },
+          {
+            "node": "c2-6",
+            "index": 0,
+            "label": "Proponer que nadie se quede fuera de las decisiones."
+          },
+          {
+            "node": "c3-1",
+            "index": 0,
+            "label": "Seguir el mapa de Lys y comprobar las marcas."
+          },
+          {
+            "node": "c3-2",
+            "index": 0,
+            "label": "Ofrecerle comida y pedir permiso para revisar la inscripción."
+          },
+          {
+            "node": "c3-3",
+            "index": 0,
+            "label": "Guardar las dos versiones como prueba."
+          },
+          {
+            "node": "c3-4",
+            "index": 0,
+            "label": "Acompañar a Lys a dibujar junto al río."
+          },
+          {
+            "node": "c3-lys",
+            "index": 0,
+            "label": "Pedirle permiso para tomarle la mano."
+          },
+          {
+            "node": "c3-5",
+            "index": 0,
+            "label": "Confiar en Kaida y desincronizar el cristal."
+          },
+          {
+            "node": "c3-6",
+            "index": 0,
+            "label": "Pedir a Lys que te ayude a estudiar el protocolo."
+          },
+          {
+            "node": "c4-1",
+            "index": 0,
+            "label": "Ayudar a Mirel a sentirse parte del grupo."
+          },
+          {
+            "node": "c4-2",
+            "index": 1,
+            "label": "Aceptar la llave, pero avisar a Kaida con la señal."
+          },
+          {
+            "node": "c4-3",
+            "index": 0,
+            "label": "Invitar a Lys y dejar que encuentre su propio ritmo."
+          },
+          {
+            "node": "c4-lys",
+            "index": 0,
+            "label": "Acercarte también y decirle que estás aquí por elección."
+          },
+          {
+            "node": "c4-4",
+            "index": 0,
+            "label": "Copiar el registro del poder alterado."
+          },
+          {
+            "node": "c4-5",
+            "index": 0,
+            "label": "Coordinar una pasarela mientras Kaida protege a Mirel."
+          },
+          {
+            "node": "c4-6",
+            "index": 0,
+            "label": "Hablar con honestidad de que te atrae más de una compañera."
+          },
+          {
+            "node": "c5-1",
+            "index": 0,
+            "label": "Inscribirte con Lys en la prueba de acertijos."
+          },
+          {
+            "node": "c5-2",
+            "index": 0,
+            "label": "Estabilizar las plataformas antes de continuar."
+          },
+          {
+            "node": "c5-3",
+            "index": 0,
+            "label": "Salvar una copia completa del registro."
+          },
+          {
+            "node": "c5-4",
+            "index": 0,
+            "label": "Pedir una foto de todos, tal como estáis."
+          },
+          {
+            "node": "c5-5",
+            "index": 0,
+            "label": "Explicar el riesgo y dar instrucciones concretas."
+          },
+          {
+            "node": "c5-6",
+            "index": 1,
+            "label": "Pedir al grupo que busque una solución juntos."
+          }
+        ],
+        "started": 1792275811311,
+        "playSeconds": 0
+      },
+      "7": {
+        "version": 1,
+        "name": "Prueba",
+        "node": "c7-1",
+        "line": 0,
+        "bonds": {
+          "lys": 39,
+          "kaida": 23,
+          "nara": 13,
+          "mirel": 28
+        },
+        "trust": 72,
+        "chaos": 0,
+        "flags": {
+          "pregunta-primero": true,
+          "expediente": true,
+          "cafe": true,
+          "fuente-clara": true,
+          "rescate-coordinado": true,
+          "lee-contrato": true,
+          "respeto-puerta": true,
+          "ritmo": true,
+          "recibos": true,
+          "orden": true,
+          "kaida-escuchada": true,
+          "equipo": true,
+          "sendero-seguro": true,
+          "brumo-amigo": true,
+          "regla-original": true,
+          "mano-lys": true,
+          "armaduras-control": true,
+          "baile-lys": true,
+          "mirel-baile": true,
+          "llave": true,
+          "baile-cercano-lys": true,
+          "don-alterado": true,
+          "balcon-equipo": true,
+          "honesto": true,
+          "festival-lys": true,
+          "festival-seguro": true,
+          "negativas": true,
+          "foto": true,
+          "evacuacion": true,
+          "mirel-equipo": true,
+          "verdad-mirel": true,
+          "domingo": true,
+          "atlas-nuevo": true,
+          "eleccion": true,
+          "tardes": true,
+          "plan-restaurar": true
+        },
+        "clues": [
+          "El expediente de llegada fue autorizado con una fecha futura. Mirel no reconoce la firma.",
+          "Los cristales del festival pesan el doble de lo declarado. La Fundación Aurora los compró para alimentar una máquina.",
+          "La orden del almacén habla de reorientación afectiva y fija la activación para la tercera campana del festival.",
+          "La regla original del Telar garantiza poder abandonar una ruta. Severin la sustituyó por una instrucción que elimina la duda.",
+          "Severin cambió el don de comprensión por un permiso de edición. Necesita que el protagonista acepte el trono para fijar el Telar.",
+          "El nodo del festival eliminaba respuestas negativas de los ciudadanos y repetía los encuentros hasta obtener la aceptación.",
+          "Mirel confirma que el accidente ocurrió antes de la selección. El poder puede conservarse a pequeña escala al renunciar al permiso de administrador."
+        ],
+        "history": [],
+        "decisions": [
+          {
+            "node": "c1-1",
+            "index": 0,
+            "label": "Pedir una explicación y un vaso de agua."
+          },
+          {
+            "node": "c1-2",
+            "index": 0,
+            "label": "Preguntar por la fecha extraña del expediente."
+          },
+          {
+            "node": "c1-3",
+            "index": 1,
+            "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-4",
+            "index": 0,
+            "label": "Aclarar el malentendido y ayudar con los libros."
+          },
+          {
+            "node": "c1-5",
+            "index": 0,
+            "label": "Coordinarte con Kaida y reforzar el nudo."
+          },
+          {
+            "node": "c1-6",
+            "index": 0,
+            "label": "Leer el contrato con Nara antes de firmar."
+          },
+          {
+            "node": "c2-1",
+            "index": 1,
+            "label": "Tranquilizar a Lys y devolverle su intimidad."
+          },
+          {
+            "node": "c2-2",
+            "index": 0,
+            "label": "Pedir a Kaida que marque el ritmo del entrenamiento."
+          },
+          {
+            "node": "c2-3",
+            "index": 1,
+            "label": "Buscar la diferencia de peso en los recibos."
+          },
+          {
+            "node": "c2-4",
+            "index": 0,
+            "label": "Copiar la orden de activación."
+          },
+          {
+            "node": "c2-5",
+            "index": 0,
+            "label": "Escucharla sin intentar arreglarle la vida."
+          },
+          {
+            "node": "c2-6",
+            "index": 0,
+            "label": "Proponer que nadie se quede fuera de las decisiones."
+          },
+          {
+            "node": "c3-1",
+            "index": 0,
+            "label": "Seguir el mapa de Lys y comprobar las marcas."
+          },
+          {
+            "node": "c3-2",
+            "index": 0,
+            "label": "Ofrecerle comida y pedir permiso para revisar la inscripción."
+          },
+          {
+            "node": "c3-3",
+            "index": 0,
+            "label": "Guardar las dos versiones como prueba."
+          },
+          {
+            "node": "c3-4",
+            "index": 0,
+            "label": "Acompañar a Lys a dibujar junto al río."
+          },
+          {
+            "node": "c3-lys",
+            "index": 0,
+            "label": "Pedirle permiso para tomarle la mano."
+          },
+          {
+            "node": "c3-5",
+            "index": 0,
+            "label": "Confiar en Kaida y desincronizar el cristal."
+          },
+          {
+            "node": "c3-6",
+            "index": 0,
+            "label": "Pedir a Lys que te ayude a estudiar el protocolo."
+          },
+          {
+            "node": "c4-1",
+            "index": 0,
+            "label": "Ayudar a Mirel a sentirse parte del grupo."
+          },
+          {
+            "node": "c4-2",
+            "index": 1,
+            "label": "Aceptar la llave, pero avisar a Kaida con la señal."
+          },
+          {
+            "node": "c4-3",
+            "index": 0,
+            "label": "Invitar a Lys y dejar que encuentre su propio ritmo."
+          },
+          {
+            "node": "c4-lys",
+            "index": 0,
+            "label": "Acercarte también y decirle que estás aquí por elección."
+          },
+          {
+            "node": "c4-4",
+            "index": 0,
+            "label": "Copiar el registro del poder alterado."
+          },
+          {
+            "node": "c4-5",
+            "index": 0,
+            "label": "Coordinar una pasarela mientras Kaida protege a Mirel."
+          },
+          {
+            "node": "c4-6",
+            "index": 0,
+            "label": "Hablar con honestidad de que te atrae más de una compañera."
+          },
+          {
+            "node": "c5-1",
+            "index": 0,
+            "label": "Inscribirte con Lys en la prueba de acertijos."
+          },
+          {
+            "node": "c5-2",
+            "index": 0,
+            "label": "Estabilizar las plataformas antes de continuar."
+          },
+          {
+            "node": "c5-3",
+            "index": 0,
+            "label": "Salvar una copia completa del registro."
+          },
+          {
+            "node": "c5-4",
+            "index": 0,
+            "label": "Pedir una foto de todos, tal como estáis."
+          },
+          {
+            "node": "c5-5",
+            "index": 0,
+            "label": "Explicar el riesgo y dar instrucciones concretas."
+          },
+          {
+            "node": "c5-6",
+            "index": 1,
+            "label": "Pedir al grupo que busque una solución juntos."
+          },
+          {
+            "node": "c6-1",
+            "index": 0,
+            "label": "Guardar el formulario y agradecer su honestidad."
+          },
+          {
+            "node": "c6-2",
+            "index": 0,
+            "label": "Invitarla a pasar un domingo contigo."
+          },
+          {
+            "node": "c6-3",
+            "index": 0,
+            "label": "Ayudar a Lys a trazar la nueva ruta."
+          },
+          {
+            "node": "c6-4",
+            "index": 0,
+            "label": "«Quiero que podamos elegir, incluso si elegimos distinto»."
+          },
+          {
+            "node": "c6-5",
+            "index": 0,
+            "label": "Admitir que también disfrutas estar con ellas."
+          },
+          {
+            "node": "c6-6",
+            "index": 0,
+            "label": "Preparar la restauración con el grupo."
+          }
+        ],
+        "started": 1792275811311,
+        "playSeconds": 0
+      },
+      "8": {
+        "version": 1,
+        "name": "Prueba",
+        "node": "c8-1",
+        "line": 0,
+        "bonds": {
+          "lys": 43,
+          "kaida": 26,
+          "nara": 15,
+          "mirel": 34
+        },
+        "trust": 90,
+        "chaos": 0,
+        "flags": {
+          "pregunta-primero": true,
+          "expediente": true,
+          "cafe": true,
+          "fuente-clara": true,
+          "rescate-coordinado": true,
+          "lee-contrato": true,
+          "respeto-puerta": true,
+          "ritmo": true,
+          "recibos": true,
+          "orden": true,
+          "kaida-escuchada": true,
+          "equipo": true,
+          "sendero-seguro": true,
+          "brumo-amigo": true,
+          "regla-original": true,
+          "mano-lys": true,
+          "armaduras-control": true,
+          "baile-lys": true,
+          "mirel-baile": true,
+          "llave": true,
+          "baile-cercano-lys": true,
+          "don-alterado": true,
+          "balcon-equipo": true,
+          "honesto": true,
+          "festival-lys": true,
+          "festival-seguro": true,
+          "negativas": true,
+          "foto": true,
+          "evacuacion": true,
+          "mirel-equipo": true,
+          "verdad-mirel": true,
+          "domingo": true,
+          "atlas-nuevo": true,
+          "eleccion": true,
+          "tardes": true,
+          "plan-restaurar": true,
+          "gratitud": true,
+          "tilda-prueba": true,
+          "rechaza-garantia": true,
+          "permiso-sostenido": true,
+          "conversacion-compartida": true,
+          "final-equipo": true
+        },
+        "clues": [
+          "El expediente de llegada fue autorizado con una fecha futura. Mirel no reconoce la firma.",
+          "Los cristales del festival pesan el doble de lo declarado. La Fundación Aurora los compró para alimentar una máquina.",
+          "La orden del almacén habla de reorientación afectiva y fija la activación para la tercera campana del festival.",
+          "La regla original del Telar garantiza poder abandonar una ruta. Severin la sustituyó por una instrucción que elimina la duda.",
+          "Severin cambió el don de comprensión por un permiso de edición. Necesita que el protagonista acepte el trono para fijar el Telar.",
+          "El nodo del festival eliminaba respuestas negativas de los ciudadanos y repetía los encuentros hasta obtener la aceptación.",
+          "Mirel confirma que el accidente ocurrió antes de la selección. El poder puede conservarse a pequeña escala al renunciar al permiso de administrador.",
+          "Tilda conserva los planos de los reguladores del festival: Aurora añadió controles de rutas que no figuraban en el pedido original."
+        ],
+        "history": [],
+        "decisions": [
+          {
+            "node": "c1-1",
+            "index": 0,
+            "label": "Pedir una explicación y un vaso de agua."
+          },
+          {
+            "node": "c1-2",
+            "index": 0,
+            "label": "Preguntar por la fecha extraña del expediente."
+          },
+          {
+            "node": "c1-3",
+            "index": 1,
+            "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-4",
+            "index": 0,
+            "label": "Aclarar el malentendido y ayudar con los libros."
+          },
+          {
+            "node": "c1-5",
+            "index": 0,
+            "label": "Coordinarte con Kaida y reforzar el nudo."
+          },
+          {
+            "node": "c1-6",
+            "index": 0,
+            "label": "Leer el contrato con Nara antes de firmar."
+          },
+          {
+            "node": "c2-1",
+            "index": 1,
+            "label": "Tranquilizar a Lys y devolverle su intimidad."
+          },
+          {
+            "node": "c2-2",
+            "index": 0,
+            "label": "Pedir a Kaida que marque el ritmo del entrenamiento."
+          },
+          {
+            "node": "c2-3",
+            "index": 1,
+            "label": "Buscar la diferencia de peso en los recibos."
+          },
+          {
+            "node": "c2-4",
+            "index": 0,
+            "label": "Copiar la orden de activación."
+          },
+          {
+            "node": "c2-5",
+            "index": 0,
+            "label": "Escucharla sin intentar arreglarle la vida."
+          },
+          {
+            "node": "c2-6",
+            "index": 0,
+            "label": "Proponer que nadie se quede fuera de las decisiones."
+          },
+          {
+            "node": "c3-1",
+            "index": 0,
+            "label": "Seguir el mapa de Lys y comprobar las marcas."
+          },
+          {
+            "node": "c3-2",
+            "index": 0,
+            "label": "Ofrecerle comida y pedir permiso para revisar la inscripción."
+          },
+          {
+            "node": "c3-3",
+            "index": 0,
+            "label": "Guardar las dos versiones como prueba."
+          },
+          {
+            "node": "c3-4",
+            "index": 0,
+            "label": "Acompañar a Lys a dibujar junto al río."
+          },
+          {
+            "node": "c3-lys",
+            "index": 0,
+            "label": "Pedirle permiso para tomarle la mano."
+          },
+          {
+            "node": "c3-5",
+            "index": 0,
+            "label": "Confiar en Kaida y desincronizar el cristal."
+          },
+          {
+            "node": "c3-6",
+            "index": 0,
+            "label": "Pedir a Lys que te ayude a estudiar el protocolo."
+          },
+          {
+            "node": "c4-1",
+            "index": 0,
+            "label": "Ayudar a Mirel a sentirse parte del grupo."
+          },
+          {
+            "node": "c4-2",
+            "index": 1,
+            "label": "Aceptar la llave, pero avisar a Kaida con la señal."
+          },
+          {
+            "node": "c4-3",
+            "index": 0,
+            "label": "Invitar a Lys y dejar que encuentre su propio ritmo."
+          },
+          {
+            "node": "c4-lys",
+            "index": 0,
+            "label": "Acercarte también y decirle que estás aquí por elección."
+          },
+          {
+            "node": "c4-4",
+            "index": 0,
+            "label": "Copiar el registro del poder alterado."
+          },
+          {
+            "node": "c4-5",
+            "index": 0,
+            "label": "Coordinar una pasarela mientras Kaida protege a Mirel."
+          },
+          {
+            "node": "c4-6",
+            "index": 0,
+            "label": "Hablar con honestidad de que te atrae más de una compañera."
+          },
+          {
+            "node": "c5-1",
+            "index": 0,
+            "label": "Inscribirte con Lys en la prueba de acertijos."
+          },
+          {
+            "node": "c5-2",
+            "index": 0,
+            "label": "Estabilizar las plataformas antes de continuar."
+          },
+          {
+            "node": "c5-3",
+            "index": 0,
+            "label": "Salvar una copia completa del registro."
+          },
+          {
+            "node": "c5-4",
+            "index": 0,
+            "label": "Pedir una foto de todos, tal como estáis."
+          },
+          {
+            "node": "c5-5",
+            "index": 0,
+            "label": "Explicar el riesgo y dar instrucciones concretas."
+          },
+          {
+            "node": "c5-6",
+            "index": 1,
+            "label": "Pedir al grupo que busque una solución juntos."
+          },
+          {
+            "node": "c6-1",
+            "index": 0,
+            "label": "Guardar el formulario y agradecer su honestidad."
+          },
+          {
+            "node": "c6-2",
+            "index": 0,
+            "label": "Invitarla a pasar un domingo contigo."
+          },
+          {
+            "node": "c6-3",
+            "index": 0,
+            "label": "Ayudar a Lys a trazar la nueva ruta."
+          },
+          {
+            "node": "c6-4",
+            "index": 0,
+            "label": "«Quiero que podamos elegir, incluso si elegimos distinto»."
+          },
+          {
+            "node": "c6-5",
+            "index": 0,
+            "label": "Admitir que también disfrutas estar con ellas."
+          },
+          {
+            "node": "c6-6",
+            "index": 0,
+            "label": "Preparar la restauración con el grupo."
+          },
+          {
+            "node": "c7-1",
+            "index": 1,
+            "label": "Agradecer a cada una algo concreto que haya elegido hacer."
+          },
+          {
+            "node": "c7-2",
+            "index": 0,
+            "label": "Pedir a Tilda que documente los cambios en los cristales."
+          },
+          {
+            "node": "c7-3",
+            "index": 0,
+            "label": "Reconocer la tentación y rechazar sus condiciones."
+          },
+          {
+            "node": "c7-4",
+            "index": 1,
+            "label": "Ayudar a Mirel a mantener su último permiso."
+          },
+          {
+            "node": "c7-5",
+            "index": 0,
+            "label": "Hablar con franqueza de afectos y de una posible relación compartida."
+          },
+          {
+            "node": "c7-6",
+            "index": 0,
+            "label": "Cruzar con el equipo, siguiendo el plan."
+          }
+        ],
+        "started": 1792275811311,
+        "playSeconds": 0
+      }
+    }
+  }
+}

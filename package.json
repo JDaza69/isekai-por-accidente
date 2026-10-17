@@ -1,0 +1,12 @@
+{
+  "name": "isekai-por-accidente",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Novela visual original en español, para PC y sin conexión.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.cjs",
+    "test": "node tests/story.test.cjs",
+    "sprites": "node tests/build-sprite-css.cjs"
+  }
+}
