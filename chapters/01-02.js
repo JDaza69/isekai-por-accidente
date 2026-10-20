@@ -31,7 +31,9 @@ M:happy|Mirel. Diosa de los umbrales, funcionaria de segunda categoría y, desde
 V|Te ofreció una silla. Ella siguió de pie. Tenía una taza fría, una montaña de expedientes y esa sonrisa que se usa cuando nadie ha preguntado todavía si necesitas descansar.
 M|Existe un mundo llamado Auralia. Necesita ayuda con ciertas irregularidades mágicas. Puedes aceptar una segunda vida allí o quedarte aquí mientras buscamos otra posibilidad.
 P|¿La segunda vida incluye vivienda o estamos usando «fantasía» en su sentido más cruel?
-M:shy|Tenemos alojamiento provisional. Y un don heroico. En tu expediente figura «compatibilidad excepcional», aunque no recuerdo haberlo escrito.
+M:serious|No incluye vivienda, dinero ni alguien que te esté esperando. Puedo darte una segunda vida y un don. Tendrás que encontrar tu lugar allí.
+P|La edición económica del isekai. Entendido.
+M:shy|En tu expediente figura «compatibilidad excepcional», aunque no recuerdo haberlo escrito. Eso tampoco significa que sepas usarlo todo desde el primer día.
 V|En la esquina del documento viste una firma borrosa y un sello con una fecha que todavía no había ocurrido. Mirel lo tapó con un movimiento nervioso.
 M|Antes de decidir, puedes preguntar lo que quieras. Lo prefiero a otro héroe que lea solo la palabra «excepcional».
 `,[
@@ -58,8 +60,13 @@ V|Tocaste la taza. La palabra FRÍO se convirtió en CALIENTE. El café empezó 
 M:shy|Te tengo. Y esa es la razón por la que los tutoriales suelen utilizar piedras.
 P|Acabo de desbloquear microondas y vergüenza ajena en la misma habilidad.
 V|Mirel soltó tu brazo solo cuando recuperaste el equilibrio. En su sello brilló por un instante un símbolo: un ojo dentro de una rueda.
-M|Busca a Lys, archivista de Brisalia. Ella estudia unos caminos que cambian de sitio. Me reuniré contigo cuando termine el informe. No intentes salvar el mundo antes de cenar.
-P|Parece una recomendación demasiado específica. Me gusta y me preocupa.
+M:serious|El umbral desemboca lejos de los asentamientos. No tengo contactos que darte ni puedo acompañarte. Allí nadie sabe quién eres.
+P|¿Ni un señor con un cartel que diga «protagonista»?
+M|Ni eso. Busca un camino transitado. Evita probar tu don cuando una caída pueda matarte. Y encuentra dónde pasar la noche.
+V|La luz del círculo dejó ver una extensión de hierba y piedra. No había casas, recibimiento ni una flecha brillante marcando la misión.
+P|Si necesito hablar contigo, ¿este sello sirve para llamarte?
+M:serious|Es un permiso, no un comunicador. Intentaré averiguar qué ocurre con tu expediente, pero no puedo prometer cuándo volveremos a hablar.
+V|Durante unos segundos no encontraste ningún chiste. Mirel era la única persona que conocías al otro lado de tu muerte. Ahora también tenías que despedirte de ella.
 `,[
  ['Practicar con una piedra y memorizar los tres segundos.',{trust:2,bonds:{mirel:1},flags:['entrenamiento']},`V|Cambiaste PESADA por LIGERA en una piedra de muestra. Contaste tres segundos en voz alta y dejaste que el bloqueo terminara antes de moverla.
 M:happy|Eso. Un héroe que escucha instrucciones. Voy a enmarcar este momento.
@@ -67,24 +74,93 @@ P|No lo difundas. Arruinaría mi reputación de protagonista impulsivo.
 V|La piedra levitó suavemente. Era un poder enorme, pero por primera vez sentiste que podía aprenderse en lugar de presumirse.`],
  ['Calentarle el café y prometer que volverás.',{bonds:{mirel:3},flags:['cafe']},`P|Antes de irme: café caliente, silla ocupada y una pausa de cinco minutos. Esa es mi primera misión.
 M:shy|¿La promesa incluye regresar vivo?
-P|Incluye quejarme personalmente si el alojamiento provisional tiene goteras.
+P|Incluye volver para contarte cómo conseguí mi primer techo. Si tiene goteras, la queja irá incluida.
 V|Mirel se rio. Cuando el portal se encendió, seguía sosteniendo la taza con ambas manos, como si fuera un regalo más raro que cualquier milagro.`],
  ['Probar una entrada heroica con viento propio.',{chaos:2,flags:['entrada-heroica']},`P|Solo voy a corregir la propiedad AIRE QUIETO. Un poquito. Para la presentación.
 V|Una ráfaga levantó los formularios, te envolvió la capa en la cabeza y dispersó la mitad de los expedientes por el portal.
 M:serious|Enhorabuena. Has inventado la burocracia meteorológica.
 P|Todo gran poder conlleva una gran factura de limpieza.
 V|Mirel abrió una puerta bajo tus pies. Su sonrisa prometía venganza administrativa.`]
+],'c1-descampado');
+
+addScene('c1-descampado',1,'Nadie estaba esperando','forest',[],`
+V|Caíste de rodillas sobre hierba húmeda. El portal se cerró antes de que pudieras decidir si tu despedida había sonado valiente o simplemente nerviosa.
+V|A tu alrededor había un claro pedregoso, árboles bajos y una colina. Ninguna voz. Ninguna casa. Nadie corriendo a explicarte qué hacer.
+P|¿Mirel?
+V|El sello no respondió. Solo oíste un insecto que parecía estar afilando una diminuta motosierra.
+P|Perfecto. Ya conozco a un vecino y me cae regular.
+V|Revisaste tus bolsillos: un pañuelo, una moneda de tu mundo y un teléfono sin señal. No tenías comida, agua, mapa ni dinero que supieras utilizar aquí.
+V|Levantaste el teléfono por costumbre. La pantalla devolvió tu cara y, detrás, dos lunas pálidas. Apagarlo fue más difícil de lo que esperabas.
+P|Primera misión: seguir vivo hasta mañana. El destino del universo puede esperar su turno.
+V|Había sol sobre la colina, sombra entre los árboles y un hilo de agua que descendía entre las piedras. Podías empezar por una cosa.
+`,[
+ ['Subir a la colina para orientarte.',{flags:['inicio-orientado']},`V|Subiste despacio, marcando el regreso con piedras. Desde arriba distinguías una línea recta entre los árboles: quizá un camino, demasiado lejos para alcanzarlo antes de oscurecer.
+P|Sin mapa, pero con una dirección. Es casi planificación.
+V|Memorizaste una roca partida que serviría como referencia al amanecer.`],
+ ['Revisar el claro y buscar un lugar protegido.',{flags:['inicio-refugio']},`V|Encontraste un saliente de roca, suelo seco y varias ramas caídas. Comprobaste que no hubiera huellas ni un animal reclamando la propiedad.
+P|Vivienda con ventilación natural. El anuncio omitiría el resto.
+V|Apartaste las piedras del suelo. Tener un lugar al que volver hizo que el claro pareciera menos inmenso.`],
+ ['Llamar a la diosa una última vez.',{flags:['inicio-despedida']},`P|No hace falta que vengas. Una señal de que has oído ya me sirve.
+V|Esperaste. El sello siguió apagado. Habías escuchado la advertencia, pero una parte de ti esperaba que no fuera del todo cierta.
+V|Guardaste la moneda de tu mundo en el bolsillo interior y respiraste despacio.
+P|Vale. Ahora me toca a mí.`]
+],'c1-noche');
+
+addScene('c1-noche',1,'Tres segundos sin nadie que te cubra','forest',[],`
+V|Al bajar el sol te instalaste bajo el saliente. Un puñado de agua recogida sobre una hoja te quitó algo de sed; no te atreviste a probar los frutos que no reconocías.
+[inicio-refugio]V|Las ramas que habías apartado te ahorraron buscar un apoyo en la oscuridad.
+[inicio-orientado]V|La roca partida todavía se veía entre los árboles. Te repetiste que por la mañana seguiría allí.
+V|El frío llegó antes que el sueño. Tocaste una piedra y viste una palabra tenue sobre ella: FRÍA.
+P|El tutorial utilizaba café. No decía nada sobre convertir una piedra en una tostadora.
+V|No intentaste darle una orden enorme. Solo pensaste en calor suficiente para las manos. La superficie se templó y tus músculos quedaron inmóviles.
+V|Algo crujió detrás de ti. Uno. No podías girarte. Dos. Una rama te rozó el hombro. Tres.
+V|Recuperaste el movimiento y retrocediste. Era una hoja arrastrada por el viento. Te reíste demasiado fuerte y luego te quedaste escuchando.
+P|Cuando tienes compañía, tres segundos son una pausa. Aquí son tres segundos enteros.
+V|La piedra seguía caliente. El poder funcionaba; eso no significaba que ya supieras cuidarte con él.
+`,[
+ ['Asegurar el refugio antes de volver a usar el don.',{flags:['inicio-cautela']},`V|Calzaste las ramas, despejaste una salida y te sentaste con la espalda contra la roca. Solo entonces templaste otra piedra.
+P|Poder legendario, procedimiento de persona que quiere desayunar mañana.
+V|El segundo bloqueo no dio menos miedo, pero esta vez habías elegido dónde te encontraría.`],
+ ['Ensayar un cambio pequeño, sentado y contando.',{flags:['inicio-practica']},`V|Esperaste a que la piedra se enfriara. Repetiste el cambio sin levantarte, atento al comienzo y al final de la inmovilidad.
+P|Uno, dos, tres. No soy invencible. Solo tengo una habilidad con un contrato muy insistente.
+V|Al tercer intento dejaste de practicar. El cansancio también era una limitación, aunque no apareciera escrito sobre nada.`],
+ ['Reservar el poder y descansar con el calor que queda.',{flags:['inicio-descanso']},`V|Te envolviste las manos con el pañuelo y las acercaste a la piedra. Por una vez no intentaste solucionar la incertidumbre haciendo otra cosa.
+V|Pensaste en tu casa, en la ropa olvidada y en gente que no sabía dónde estabas.
+P|Mañana. Primero tengo que llegar a mañana.
+V|Dormiste a ratos, despertándote con cada sonido desconocido.`]
+],'c1-camino');
+
+addScene('c1-camino',1,'El primer camino no tenía tu nombre','forest',[],`
+V|Amaneció. Tenías hambre, una marca de la roca en la mejilla y la pequeña satisfacción de haber atravesado la primera noche.
+[inicio-cautela]V|Desmontaste el refugio con cuidado: ahora sabías cuánto valía encontrar una salida libre.
+[inicio-practica]V|Antes de caminar repetiste mentalmente el ritmo de tu don. No lo usaste para demostrarte nada.
+[inicio-descanso]V|El poco sueño que habías conseguido te permitió empezar sin tropezar en cada raíz.
+V|Seguiste la loma hasta dar con dos surcos de ruedas. Junto a ellos había un poste inclinado. Entendías sus letras, aunque nunca hubieras visto aquella escritura.
+P|Brisalia. Al menos una de mis habilidades ha llegado sin efectos secundarios.
+V|El camino estaba vacío. Un carro distante pasó por otra ladera sin verte; nadie sabía que habías aparecido allí.
+V|Más adelante se alzaban tejados y puentes. Antes de entrar, te detuviste ante tu reflejo en un charco: barro en los pantalones y una cara que intentaba parecer menos perdida.
+P|No necesito convertirme hoy en una leyenda. Me basta con encontrar agua, trabajo y alguien que me diga cuánto cuesta un pan.
+`,[
+ ['Entrar buscando agua y un trabajo sencillo.',{flags:['inicio-trabajo']},`V|Ensayaste una frase: «Acabo de llegar. ¿Necesitan ayuda con algo?». Sonaba menos impresionante que presentarte como elegido, y bastante más útil.
+P|Experiencia previa: sobreviví a mi primer día. Referencias: una piedra.
+V|Seguiste los carteles hasta una plaza donde se oía correr agua.`],
+ ['Observar las costumbres antes de acercarte a alguien.',{flags:['inicio-observador']},`V|Viste cómo la gente saludaba, esperaba su turno y comparaba monedas antes de pagar. Preferiste aprender algo pequeño antes de fingir que lo entendías todo.
+P|La fantasía tiene mercados. Los mercados tienen precios. Mi preocupación resulta sorprendentemente universal.
+V|El sonido de una fuente te llevó hacia la plaza.`],
+ ['Practicar una presentación y admitir que estás perdido.',{flags:['inicio-sincero']},`P|Hola, soy {name}. No conozco esta ciudad. Ni las otras. Estoy empezando por esta.
+V|Probaste decirlo sin la última parte. Mejor. Guardaste el teléfono, te sacudiste el barro y seguiste hacia el agua que escuchabas entre las casas.
+V|La primera persona a la que hablaras no tendría ninguna razón para confiar en ti. Tendrías que darle una.`]
 ],'c1-4');
 
 addScene('c1-4',1,'La elfa, el héroe y la fuente','city',['lys'],`
-V|Auralia te recibió con islas flotantes, tejados color lavanda y una fuente cuya profundidad descubriste con la dignidad de un saco de patatas.
+V|Llegaste a la fuente de una plaza. Al inclinarte para beber, resbalaste en el borde y chocaste con una pila de libros apoyada sobre la piedra. Tú y tres volúmenes acabasteis en el agua.
 L:serious|¡No te muevas! Los libros primero. Tú pareces bastante impermeable.
-V|Una elfa adulta de cabello verde se arrodilló junto al borde. Rescató tres volúmenes, te tendió la mano y entonces vio el sello de Mirel en tu muñeca.
-L:shy|Ah. Tú debes de ser mi... asignado. Quería decir el investigador asignado. La solicitud era de ayuda profesional.
-P|Tranquila. En mi currículum pone que sé caer en lugares de trabajo.
+V|Una elfa adulta de cabello verde y gafas redondas se arrodilló junto al borde. Rescató los volúmenes y te tendió la mano. Nunca la habías visto; su expresión dejaba claro que ella tampoco te esperaba.
+L:serious|¿Estás bien? Y, después de eso: ¿sueles entrar así en las ciudades?
+P|Soy {name}. Acabo de llegar y todavía estoy negociando con el suelo. Lo siento por tus libros.
 L|Soy Lys Auralia. Estudio los caminos antiguos. Esta mañana una calle desapareció y dejó a un panadero entrando por la ventana del alcalde.
 P|Quizá solo haya descubierto un modelo de reparto más eficiente.
-V|Lys trató de mantener una expresión severa, pero se le escapó una sonrisa. Extendió un mapa lleno de correcciones realizadas a mano.
+V|Lys trató de mantener una expresión severa, pero se le escapó una sonrisa. Mientras apartabas los libros del agua, extendió un mapa lleno de correcciones realizadas a mano.
 L|Los puentes, los senderos y las puertas obedecen a una red mágica llamada el Telar. Algo está reescribiéndola. Necesito encontrar la causa antes de que desaparezca un barrio.
 V|A tu alrededor empezó a reunirse gente. Alguien comentó que las presentaciones en una fuente eran una antigua tradición de compromiso. Lys cerró el mapa con demasiada rapidez.
 `,[
@@ -133,9 +209,9 @@ V|Cuando todo terminó, Lys siguió sosteniéndote la manga un segundo más de l
 
 addScene('c1-6',1,'Una oferta imposible de rechazar','tavern',['nara','kaida'],`
 V|La posada del Grifo Despeinado olía a pan, madera caliente y problemas razonablemente asequibles. Tras el mostrador, una kitsune adulta contaba monedas con una mano y saludaba con la otra.
-N:happy|El héroe de la fuente. El salvador del puente. El enemigo natural de los pantalones secos. Soy Nara. Te he reservado una habitación.
+N:happy|Así que tú eres el de la fuente y el puente. El enemigo natural de los pantalones secos. Soy Nara. Queda una habitación libre, si estás buscando.
 P|¿Cómo sabes todo eso?
-N|Información local. Y acabas de dejar un rastro de agua desde la puerta. Mi trabajo exige observar detalles sutiles.
+N|El carretero acaba de entrar contando el rescate. Y tú has dejado un rastro de agua desde la puerta. Antes de eso, no sabía que existías.
 K|Nara administra las habitaciones del gremio. También vende objetos que suelen ser legales cuando termina de explicar para qué sirven.
 N:serious|Qué descripción tan cruel. Casi todos eran legales antes de la explicación.
 V|Lys dejó sus libros sobre una mesa y fue a buscar toallas. Nara examinó tu sello sin tocarte. Durante un instante dejó de sonreír.

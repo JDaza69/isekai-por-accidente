@@ -4,6 +4,8 @@ Recuperación: **17 de octubre de 2026**. Fuente: conversación de desarrollo de
 
 Este documento resume decisiones del proyecto. No reproduce el registro interno completo del chat.
 
+**Actualización del 20 de octubre de 2026:** el creador pidió comenzar solo después de conocer a la diosa, ampliar expresiones y añadir compañeras y secundarios, trabajando poco a poco. La primera modificación y el trabajo pendiente están en [Ampliación por etapas](AMPLIACION_POR_ETAPAS.md). Las cifras de recuperación de este documento describen la versión del 17 de octubre.
+
 ## Lo solicitado por el creador
 
 - Un juego de elecciones A/B/C, con una historia que cambie según las respuestas y varios finales.

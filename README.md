@@ -30,10 +30,10 @@ Abre **http://127.0.0.1:4173**. Para detenerlo, pulsa `Ctrl+C` en la terminal. N
 
 ## Qué incluye
 
-- **8 capítulos**, 61 escenas principales y 147 escenas de ramificación.
-- **54 puntos de decisión**, con tres opciones A/B/C; una partida recorre solo una parte de las ramas.
+- **8 capítulos**, 64 escenas principales y 156 escenas de ramificación.
+- **57 puntos de decisión**, con tres opciones A/B/C; una partida recorre solo una parte de las ramas.
 - **7 finales**: cuatro románticos, uno compartido, uno libre y uno cómico.
-- **22.323 palabras** en el conjunto de escenas y ramificaciones; cada ruta probada contiene aproximadamente 12.000–13.000 palabras.
+- **23.453 palabras** en el conjunto de escenas y ramificaciones; cada ruta probada contiene aproximadamente 12.700–13.800 palabras.
 - Ocho personajes ilustrados, con cuatro expresiones cada uno.
 - Fondos de ciudad, taberna, bosque y palacio, con versiones simplificadas.
 - Afinidades, confianza del grupo, pistas y consecuencias de decisiones anteriores.
@@ -105,6 +105,8 @@ Regenera `sprites.css` a partir de las coordenadas de los atlas actuales. Si cam
 ## Continuar el proyecto
 
 Empieza por [el contexto recuperado](docs/CONTEXTO_RECUPERADO.md) y [la guía de desarrollo](docs/DESARROLLO.md). Incluyen los requisitos creativos originales, las últimas correcciones y lo que queda por comprobar. Esta recuperación conserva el guion y las ilustraciones existentes; no representa una revisión editorial completa de toda la novela.
+
+**Ampliación, etapa 1:** el protagonista conoce a Mirel y llega solo a un paraje deshabitado. Debe pasar su primera noche y encontrar un camino antes de conocer a Lys. Para ver este inicio, comienza una partida nueva. Las nuevas compañeras, los secundarios y las expresiones adicionales están planificados en [Ampliación por etapas](docs/AMPLIACION_POR_ETAPAS.md), todavía pendientes de implementación.
 
 ## Créditos y recursos
 

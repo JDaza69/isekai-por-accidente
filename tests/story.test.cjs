@@ -8,6 +8,22 @@ const C=require('../core.js'),S=global.STORY,nodes=Object.values(S.nodes);
 const cases=[];
 function test(name,fn){fn();cases.push(name);console.log('OK '+name);}
 const validActors=new Set([...Object.keys(S.characters),...Object.keys(S.npcs),'narrator','anuncio']);
+test('Every opening path meets only Mirel before surviving alone and reaching Lys',()=>{
+  const solo=['c1-descampado','c1-noche','c1-camino'],queue=[[S.start,0]],seen=new Set();
+  let arrivals=0;
+  while(queue.length){
+    const [id,previousMask]=queue.shift(),n=S.nodes[id];
+    const index=solo.indexOf(id),mask=previousMask|(index<0?0:1<<index),key=id+':'+mask;
+    if(seen.has(key))continue;seen.add(key);
+    if(id==='c1-4'){assert.equal(mask,7,'A path skips the solitary arrival');arrivals++;continue;}
+    const allowed=new Set(['player','narrator','anuncio',...(mask?[]:['mirel'])]);
+    for(const actor of [...n.cast,...n.lines.map(l=>l.speaker)])assert(allowed.has(actor),'Unexpected company in '+id+': '+actor);
+    const exits=n.choices?n.choices.map(c=>c.next):n.next?[n.next]:[];
+    assert(exits.length,'Opening has no exit: '+id);
+    for(const next of exits)queue.push([next,mask]);
+  }
+  assert(arrivals>0,'Opening never reaches the first meeting');
+});
 test('Every scene has dialogue, valid actors, three choices or an exit',()=>{
   for(const n of nodes){assert(n.lines.length>0,n.id);for(const l of n.lines){assert(validActors.has(l.speaker),n.id+': '+l.speaker);assert(['neutral','happy','shy','serious'].includes(l.expression));assert(l.text.length>0);}
     assert(n.choices||n.next||n.ending,n.id);if(n.choices){assert.equal(n.choices.length,3,n.id);assert(n.choices.some(c=>!c.requirement),'No unconditional exit: '+n.id);for(const c of n.choices)assert(S.nodes[c.next],n.id+' -> '+c.next);}

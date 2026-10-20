@@ -18,6 +18,9 @@
       "pregunta-primero": true,
       "expediente": true,
       "cafe": true,
+      "inicio-orientado": true,
+      "inicio-cautela": true,
+      "inicio-trabajo": true,
       "fuente-clara": true,
       "rescate-coordinado": true,
       "lee-contrato": true,
@@ -77,6 +80,21 @@
         "node": "c1-3",
         "index": 1,
         "label": "Calentarle el café y prometer que volverás."
+      },
+      {
+        "node": "c1-descampado",
+        "index": 0,
+        "label": "Subir a la colina para orientarte."
+      },
+      {
+        "node": "c1-noche",
+        "index": 0,
+        "label": "Asegurar el refugio antes de volver a usar el don."
+      },
+      {
+        "node": "c1-camino",
+        "index": 0,
+        "label": "Entrar buscando agua y un trabajo sencillo."
       },
       {
         "node": "c1-4",
@@ -254,7 +272,7 @@
         "label": "Preparar la restauración con el grupo."
       }
     ],
-    "started": 1792275811311,
+    "started": 1792513230026,
     "playSeconds": 0
   },
   "profile": {
@@ -277,7 +295,7 @@
         "clues": [],
         "history": [],
         "decisions": [],
-        "started": 1792275811311,
+        "started": 1792513230026,
         "playSeconds": 0
       },
       "2": {
@@ -297,6 +315,9 @@
           "pregunta-primero": true,
           "expediente": true,
           "cafe": true,
+          "inicio-orientado": true,
+          "inicio-cautela": true,
+          "inicio-trabajo": true,
           "fuente-clara": true,
           "rescate-coordinado": true,
           "lee-contrato": true
@@ -322,6 +343,21 @@
             "label": "Calentarle el café y prometer que volverás."
           },
           {
+            "node": "c1-descampado",
+            "index": 0,
+            "label": "Subir a la colina para orientarte."
+          },
+          {
+            "node": "c1-noche",
+            "index": 0,
+            "label": "Asegurar el refugio antes de volver a usar el don."
+          },
+          {
+            "node": "c1-camino",
+            "index": 0,
+            "label": "Entrar buscando agua y un trabajo sencillo."
+          },
+          {
             "node": "c1-4",
             "index": 0,
             "label": "Aclarar el malentendido y ayudar con los libros."
@@ -337,7 +373,7 @@
             "label": "Leer el contrato con Nara antes de firmar."
           }
         ],
-        "started": 1792275811311,
+        "started": 1792513230026,
         "playSeconds": 0
       },
       "3": {
@@ -357,6 +393,9 @@
           "pregunta-primero": true,
           "expediente": true,
           "cafe": true,
+          "inicio-orientado": true,
+          "inicio-cautela": true,
+          "inicio-trabajo": true,
           "fuente-clara": true,
           "rescate-coordinado": true,
           "lee-contrato": true,
@@ -388,6 +427,21 @@
             "node": "c1-3",
             "index": 1,
             "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-descampado",
+            "index": 0,
+            "label": "Subir a la colina para orientarte."
+          },
+          {
+            "node": "c1-noche",
+            "index": 0,
+            "label": "Asegurar el refugio antes de volver a usar el don."
+          },
+          {
+            "node": "c1-camino",
+            "index": 0,
+            "label": "Entrar buscando agua y un trabajo sencillo."
           },
           {
             "node": "c1-4",
@@ -435,7 +489,7 @@
             "label": "Proponer que nadie se quede fuera de las decisiones."
           }
         ],
-        "started": 1792275811311,
+        "started": 1792513230026,
         "playSeconds": 0
       },
       "4": {
@@ -455,6 +509,9 @@
           "pregunta-primero": true,
           "expediente": true,
           "cafe": true,
+          "inicio-orientado": true,
+          "inicio-cautela": true,
+          "inicio-trabajo": true,
           "fuente-clara": true,
           "rescate-coordinado": true,
           "lee-contrato": true,
@@ -493,6 +550,21 @@
             "node": "c1-3",
             "index": 1,
             "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-descampado",
+            "index": 0,
+            "label": "Subir a la colina para orientarte."
+          },
+          {
+            "node": "c1-noche",
+            "index": 0,
+            "label": "Asegurar el refugio antes de volver a usar el don."
+          },
+          {
+            "node": "c1-camino",
+            "index": 0,
+            "label": "Entrar buscando agua y un trabajo sencillo."
           },
           {
             "node": "c1-4",
@@ -575,7 +647,7 @@
             "label": "Pedir a Lys que te ayude a estudiar el protocolo."
           }
         ],
-        "started": 1792275811311,
+        "started": 1792513230026,
         "playSeconds": 0
       },
       "5": {
@@ -595,6 +667,9 @@
           "pregunta-primero": true,
           "expediente": true,
           "cafe": true,
+          "inicio-orientado": true,
+          "inicio-cautela": true,
+          "inicio-trabajo": true,
           "fuente-clara": true,
           "rescate-coordinado": true,
           "lee-contrato": true,
@@ -640,6 +715,21 @@
             "node": "c1-3",
             "index": 1,
             "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-descampado",
+            "index": 0,
+            "label": "Subir a la colina para orientarte."
+          },
+          {
+            "node": "c1-noche",
+            "index": 0,
+            "label": "Asegurar el refugio antes de volver a usar el don."
+          },
+          {
+            "node": "c1-camino",
+            "index": 0,
+            "label": "Entrar buscando agua y un trabajo sencillo."
           },
           {
             "node": "c1-4",
@@ -757,7 +847,7 @@
             "label": "Hablar con honestidad de que te atrae más de una compañera."
           }
         ],
-        "started": 1792275811311,
+        "started": 1792513230026,
         "playSeconds": 0
       },
       "6": {
@@ -777,6 +867,9 @@
           "pregunta-primero": true,
           "expediente": true,
           "cafe": true,
+          "inicio-orientado": true,
+          "inicio-cautela": true,
+          "inicio-trabajo": true,
           "fuente-clara": true,
           "rescate-coordinado": true,
           "lee-contrato": true,
@@ -829,6 +922,21 @@
             "node": "c1-3",
             "index": 1,
             "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-descampado",
+            "index": 0,
+            "label": "Subir a la colina para orientarte."
+          },
+          {
+            "node": "c1-noche",
+            "index": 0,
+            "label": "Asegurar el refugio antes de volver a usar el don."
+          },
+          {
+            "node": "c1-camino",
+            "index": 0,
+            "label": "Entrar buscando agua y un trabajo sencillo."
           },
           {
             "node": "c1-4",
@@ -976,7 +1084,7 @@
             "label": "Pedir al grupo que busque una solución juntos."
           }
         ],
-        "started": 1792275811311,
+        "started": 1792513230026,
         "playSeconds": 0
       },
       "7": {
@@ -996,6 +1104,9 @@
           "pregunta-primero": true,
           "expediente": true,
           "cafe": true,
+          "inicio-orientado": true,
+          "inicio-cautela": true,
+          "inicio-trabajo": true,
           "fuente-clara": true,
           "rescate-coordinado": true,
           "lee-contrato": true,
@@ -1055,6 +1166,21 @@
             "node": "c1-3",
             "index": 1,
             "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-descampado",
+            "index": 0,
+            "label": "Subir a la colina para orientarte."
+          },
+          {
+            "node": "c1-noche",
+            "index": 0,
+            "label": "Asegurar el refugio antes de volver a usar el don."
+          },
+          {
+            "node": "c1-camino",
+            "index": 0,
+            "label": "Entrar buscando agua y un trabajo sencillo."
           },
           {
             "node": "c1-4",
@@ -1232,7 +1358,7 @@
             "label": "Preparar la restauración con el grupo."
           }
         ],
-        "started": 1792275811311,
+        "started": 1792513230026,
         "playSeconds": 0
       },
       "8": {
@@ -1252,6 +1378,9 @@
           "pregunta-primero": true,
           "expediente": true,
           "cafe": true,
+          "inicio-orientado": true,
+          "inicio-cautela": true,
+          "inicio-trabajo": true,
           "fuente-clara": true,
           "rescate-coordinado": true,
           "lee-contrato": true,
@@ -1318,6 +1447,21 @@
             "node": "c1-3",
             "index": 1,
             "label": "Calentarle el café y prometer que volverás."
+          },
+          {
+            "node": "c1-descampado",
+            "index": 0,
+            "label": "Subir a la colina para orientarte."
+          },
+          {
+            "node": "c1-noche",
+            "index": 0,
+            "label": "Asegurar el refugio antes de volver a usar el don."
+          },
+          {
+            "node": "c1-camino",
+            "index": 0,
+            "label": "Entrar buscando agua y un trabajo sencillo."
           },
           {
             "node": "c1-4",
@@ -1525,7 +1669,7 @@
             "label": "Cruzar con el equipo, siguiendo el plan."
           }
         ],
-        "started": 1792275811311,
+        "started": 1792513230026,
         "playSeconds": 0
       }
     }

@@ -1,49 +1,50 @@
 {
   "chapters": 8,
-  "scenes": 61,
-  "branchScenes": 147,
-  "decisions": 54,
+  "scenes": 64,
+  "branchScenes": 156,
+  "decisions": 57,
   "endings": 7,
-  "dialogueLines": 1207,
-  "totalWords": 22323,
+  "dialogueLines": 1271,
+  "totalWords": 23453,
   "routes": {
     "lys": {
-      "words": 12644,
-      "lines": 651,
-      "decisions": 48
+      "words": 13407,
+      "lines": 692,
+      "decisions": 51
     },
     "kaida": {
-      "words": 12701,
-      "lines": 652,
-      "decisions": 48
+      "words": 13464,
+      "lines": 693,
+      "decisions": 51
     },
     "nara": {
-      "words": 12857,
-      "lines": 659,
-      "decisions": 49
+      "words": 13620,
+      "lines": 700,
+      "decisions": 52
     },
     "mirel": {
-      "words": 12844,
-      "lines": 657,
-      "decisions": 49
+      "words": 13614,
+      "lines": 698,
+      "decisions": 52
     },
     "constellation": {
-      "words": 13036,
-      "lines": 667,
-      "decisions": 50
+      "words": 13806,
+      "lines": 708,
+      "decisions": 53
     },
     "bakery": {
-      "words": 12935,
-      "lines": 666,
-      "decisions": 50
+      "words": 13698,
+      "lines": 707,
+      "decisions": 53
     },
     "emperor": {
-      "words": 11978,
-      "lines": 614,
-      "decisions": 45
+      "words": 12741,
+      "lines": 655,
+      "decisions": 48
     }
   },
   "tests": [
+    "Every opening path meets only Mirel before surviving alone and reaching Lys",
     "Every scene has dialogue, valid actors, three choices or an exit",
     "All authored scenes are reachable and all paths have an ending",
     "All seven endings are attainable from a fresh game",
