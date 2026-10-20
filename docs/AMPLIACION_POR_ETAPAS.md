@@ -28,6 +28,8 @@ Son propuestas de reparto, no personajes ya integrados. Sus rutas y finales exig
 
 ## Etapa 3 — Expresiones (pendiente)
 
+Paso visual previo completado: revisión anime de las cuatro protagonistas actuales, con rostros de adultas jóvenes y las cuatro expresiones existentes. La portada, las escenas y la galería usan `assets/characters-anime-v2.png`. Prompts y procedencia en `assets/ANIME-V2.md`.
+
 Ampliar de cuatro a ocho expresiones por personaje: conservar neutral, alegría, vergüenza y seriedad; añadir sorpresa, tristeza, enfado y picardía. Crear primero la lámina de Mirel, revisar su coherencia y repetir con un personaje por entrega.
 
 Mantener diseños, ropa y proporciones entre expresiones. Asignar cada imagen a un momento concreto del guion. Las expresiones nuevas requieren ampliar los valores admitidos por las pruebas y actualizar los recortes; cambiar una clase CSS por sí solo no crea arte nuevo.

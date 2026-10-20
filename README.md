@@ -35,6 +35,7 @@ Abre **http://127.0.0.1:4173**. Para detenerlo, pulsa `Ctrl+C` en la terminal. N
 - **7 finales**: cuatro románticos, uno compartido, uno libre y uno cómico.
 - **23.453 palabras** en el conjunto de escenas y ramificaciones; cada ruta probada contiene aproximadamente 12.700–13.800 palabras.
 - Ocho personajes ilustrados, con cuatro expresiones cada uno.
+- Lys, Kaida, Nara y Mirel tienen una revisión visual anime de adultas jóvenes; [lámina y prompt](assets/ANIME-V2.md).
 - Fondos de ciudad, taberna, bosque y palacio, con versiones simplificadas.
 - Afinidades, confianza del grupo, pistas y consecuencias de decisiones anteriores.
 - Autoguardado, tres ranuras manuales y exportación/importación en JSON.
